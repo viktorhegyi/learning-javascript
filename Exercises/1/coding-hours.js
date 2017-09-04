@@ -8,3 +8,6 @@
 //
 // Print the percentage of the coding hours in the semester if the average
 // work hours weekly is 52
+
+console.log("The attendee spends: " + (17 * 5) * 6 + " hours coding in a semester");
+console.log("The percentage of the coding hours is " + (17 * 5 * 6) / (17 * 52) * 100);
