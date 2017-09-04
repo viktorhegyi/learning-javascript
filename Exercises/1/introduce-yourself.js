@@ -10,3 +10,7 @@
 //  John Doe
 //  31
 //  1.87
+
+console.log("Viktor Hegyi");
+console.log(31);
+console.log(1.83);
