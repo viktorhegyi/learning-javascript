@@ -18,3 +18,7 @@ var number = 15;
 // 8 * 15 = 120
 // 9 * 15 = 135
 // 10 * 15 = 150
+
+for (var i = 0; i < 10; i++) {
+  console.log((i + 1) + " * " + number + " = " + (i + 1) * number);
+}
