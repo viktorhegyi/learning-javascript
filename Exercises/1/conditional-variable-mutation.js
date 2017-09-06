@@ -4,6 +4,9 @@ var a = 24;
 var out = 0;
 // if a is even increment out by one
 
+if (a % 2 == 0) {
+  out += 1;
+}
 
 console.log(out);
 
@@ -16,6 +19,13 @@ var out2 = '';
 // if less than 10 set out2 to "More!",
 // if more than 20 set out2 to "Less!"
 
+if (b > 10 && b < 20) {
+  out2 = "Sweet!";
+} else if ( b < 10) {
+  out2 = "More!";
+} else {
+  out2 = "Less!";
+}
 
 console.log(out2);
 
@@ -30,6 +40,16 @@ var isBonus = false;
 // and is_bonus is false decrement c by 1
 // if is_bonus is true c should remain the same
 
+if (credits >= 50 && !isBonus) {
+  c -= 2;
+}
+if (credits < 50 && !isBonus) {
+  c -= 1;
+}
+
+if (isBonus) {
+  c === c;
+}
 
 console.log(c);
 
@@ -45,3 +65,13 @@ var out3 = '';
 // if time is more than 200
 // set out3 to "Time out"
 // otherwise set out3 to "Run Forest Run!"
+
+if (d % 4 == 0 && time < 200) {
+  out3 = "check";
+} else if (time > 200) {
+  out3 = " Time out";
+} else {
+  out3 = "Run Forest Run!";
+}
+
+console.log(out3);
