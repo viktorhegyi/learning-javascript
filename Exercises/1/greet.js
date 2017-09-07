@@ -4,3 +4,15 @@
 //     - Greeting is printing e.g. `Greetings, dear Greenfox`
 //     - Prepare for the special case when no parameters are given
 // - Greet `al`
+
+var al = "Greenfox";
+
+function greet(a) {
+  if (a == null) {
+    console.log("Greetings, stranger");
+  } else {
+    console.log("Greetings, dear " + a);
+  }
+}
+
+greet(al);
